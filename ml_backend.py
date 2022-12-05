@@ -1,6 +1,9 @@
 import openai
+import os
 
 class ml_backend:
+
+    os.environ["OPENAI_API_KEY"] = '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'
         
     openai.api_key = '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'
 
