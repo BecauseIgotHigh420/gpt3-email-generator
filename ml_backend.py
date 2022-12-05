@@ -2,7 +2,7 @@ import openai
 
 class ml_backend:
         
-    openai.api_key = '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'
+    openai.api_key = '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'
 
     def generate_email(self, userPrompt ="Rédige moi une lettre", start=""):
         """Renvoie une lettre générée en utilisant l'intelligence artificielle"""
